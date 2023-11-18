@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #f9f5d7;
+    font-family: Verdana;
+    background-color: #928374;
+    height: 100px;
+}
+
+header > h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#unLogo {
+	height: 90px;
+	max-width: 110px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+	text-align: center;
+	height: 100px;
+	padding: 8px;
+    display: inline-block;
+    float: right;
+}
+
+body {
+    background-color: #fbf1c7;
+	color: #3c3836;
+	font-family: Verdana;
+	font-size: 16px;
+	line-height: 1.5;
+}
