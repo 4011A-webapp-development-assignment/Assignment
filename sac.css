@@ -4,7 +4,7 @@
 }
 
 header {
-    color: #f9f5d7;
+    color: #d79921;
     font-family: Verdana;
     background-color: #928374;
     height: 90px;
@@ -40,7 +40,7 @@ nav {
 
 body {
     background-color: #fbf1cf;
-	color: #3c3836;
+    color: #3c3836;
 	font-family: Verdana;
 	font-size: 16px;
 	line-height: 1.5;
