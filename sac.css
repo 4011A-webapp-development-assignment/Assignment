@@ -1,34 +1,28 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana;
 }
 
 header {
-    color: #bdae93;
-    font-family: Verdana;
     background-color: #928374;
     height: 90px;
 }
 
-title {
-    float: left;
-    padding-right: 200px;
-}
-
 #unLogo {
-	height: 70px;
-	max-width: 90px;
+	height: 80px;
+	max-width: 100px;
     float: left;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #webLogo {
     float: left;
-    font-size: 10px;
-    padding-right: 320px;
+    font-size: 9px;
+    color: #bdae93;
 }
 
 a {
@@ -38,16 +32,23 @@ a {
 
 nav {
     height: auto;
+    float: inline-end;
+    margin-right: 10px;
     padding: 1px;
-    padding-top: 10px;
+    padding-top: 15px;
+    font-size: small;
 }
 
 .navi {
-    display: inline-block;
     padding: 14px;
     background-color: #bdae93;
     border-radius: 5px;
     border: solid 3px #928374
+}
+
+
+.navi:hover {
+    background-color: #fbf1cf;
 }
 
 .activeNavi {
@@ -58,16 +59,9 @@ nav {
     border: solid 3px #928374
 }
 
-@media only screen and (max-width: 800px) {
-    nav {
-        visibility: hidden;
-    }
-  }
-
 ul {
     display: flex;
-    font-size: 1vw;
-    padding-left: 290px;
+    list-style-type: none;
 }
 
 body {
@@ -86,7 +80,7 @@ section {
 
 #photo1 {
     height: 400px;
-    width: 40%;
+    width: 60%;
     float: right;
     border: solid 5px black;
     margin-left: 10px;
@@ -102,17 +96,50 @@ section {
 
 section > h3 {
     color: #bdae93;
+    font-size: 25px;
 }
+
+#webDesc > p {
+    display: flex;
+    background-color: #fbf1cf;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: solid 3px #3c3836;
+    border-radius: 8px;
+}
+
 
 button {
     background-color: #928374;
     color: #fbf1cf;
     border: solid 3px black;
     border-radius: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d2b67d;
 }
 
 #textBox1 {
-    float: left;
+    display: inline-block;
     border: solid 5px #3c3836;
     border-radius: 3px;
+}
+
+@media only screen and (max-width: 850px) {
+    nav {
+		visibility: hidden;
+	}
 }
