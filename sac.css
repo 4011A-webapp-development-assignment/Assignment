@@ -4,6 +4,10 @@
     font-family: Verdana;
 }
 
+#navBar {
+    display: none;
+}
+
 header {
     background-color: #928374;
     height: 90px;
@@ -138,8 +142,17 @@ button:hover {
     border-radius: 3px;
 }
 
+
 @media only screen and (max-width: 850px) {
     nav {
-		visibility: hidden;
+		display: none;
 	}
+
+    #navBar {
+		display: block;
+		float: right;
+		padding: 12px;
+		height: 55%;
+		background-color: #e1dbe1;
+    }
 }
