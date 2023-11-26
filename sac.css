@@ -14,7 +14,7 @@ header {
     height: 90px;
 }
 
-#unLogo {
+.unLogo {
 	height: 80px;
 	max-width: 100px;
     float: left;
@@ -144,7 +144,43 @@ button:hover {
     border-radius: 3px;
 }
 
+.goalMainText {
+    display: inline-block;
+    border: solid 5px #3c3836;
+    border-radius: 3px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: left;
+    word-break: keep-all;
 
+}
+.footer {
+    text-align: center;
+}
+#imfLogo {
+    float: left;
+    width: 30%;
+    height: 29%;
+    margin: 10%;
+}
+
+#gdpGraph {
+    float: right;
+    width: 30%;
+    margin: 10% ;
+}
+
+#econSecond {
+    clear: left;
+    /* starts text lower down to prevent wordwrap with images */
+}
+
+.goalTitle {
+    text-align: center;
+    padding: 1%;
+}
 @media only screen and (max-width: 825px) {
     nav {
 		display: none;
