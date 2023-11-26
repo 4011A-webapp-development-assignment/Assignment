@@ -193,5 +193,10 @@ button:hover {
         font-size: medium;
         margin-bottom: 20%;
         background-color: aqua;
-    } 
+    }
+    .goalMainText {
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
 }
