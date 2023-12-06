@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sustanability Advisory Comittee</title>
+    <script src="https://kit.fontawesome.com/3e13c3f76f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sac.css">
+    <script src="navBar.js" defer></script>
+    <script src="underLine.js" defer></script>
+</head>
+<body>
+<div>
+    <header>
+        <img id="webLogo" src="images/unLogo.png" alt="">
+        <h1>Sustainability Advisory<br>Committee</h1>
+        <nav id="mainNav">
+            <ul class="mainNav">
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav" title="Good Health & Well-Being"><a href="goal3.html">UN Goal 3</a></li>
+                <li class="nav" title="Decent Work & Economic Growth"><a href="goal8.html">UN Goal 8</a></li>
+                <li class="nav" title="Life Below Water"><a href="goal14.html">UN Goal 14</a></li>
+                <li class="nav"><a href="teamInfo.html">Team Info</a></li>
+                <li class="activeNav"><a href="signUp.html">Sign Up</a></li></ul>
+        </nav>
+        <a id="navBar">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </header>
+        <main>
+            <div id="formDesc">
+                <h3>Sign Up Form</h3>
+                <p>You can Sign Up here to recieve frequent newsletters. <br> Fields marked with an asterisk (*) must be filled in.</p>
+            </div>
+                <form action="" method="POST" id="signUpForm">
+                    <fieldset>
+                        <legend>Sign Up Form</legend>
+                        <label for="fName">First Name: </label>
+                        <input type="text" id="fName" name="fName" placeholder="Enter your First Name" required><br><br>
+                        <label for="lName">Last Name: </label>
+                        <input type="text" id="lName" name="lName" placeholder="Enter your Last Name" required><br><br>
+                        <label for="email">Email Address: </label>
+                        <input type="text" id="email" name="email" placeholder="Enter your Email Address" required><br><br>
+                        <label for="comments">Comments: </label>
+                        <input type="text" id="comments" name="comments" placeholder="Enter any comments you have or type N/A" required><br><br>
+                        <button id="submitForm">Submit Form</button>
+                    </fieldset>
+                </form>
+        </main>
+        <footer>
+            <p><small><i>Copyright &copy; <a href="mailto:SAC@gmail.com">Sustanability Advisory Comittee</a></i></small>
+        </footer>
+</div>
+</body>
+</html>

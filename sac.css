@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
+/* Header & Navigation */
 header {
 	background-color: #cdaa75;
 	height: 100px;
@@ -63,8 +59,13 @@ nav {
     background-color: #fbf1cf;
 }
 
+#navBar{
+	display: none;
+}
 
 
+
+/* Index Page */
 #mainSec {
 	position: relative;
 	text-align: center;
@@ -81,6 +82,8 @@ h2 {
 	top: 15%;
 	left: 20px;
 	position: absolute;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 #mainSec > p {
@@ -118,9 +121,10 @@ h2 {
 
 
 
+/* Body */
 body {
-	background-color: #EFF4F7;
-	color: #3F2860;
+	background-color: #fbf1cf;
+	color: #3c3836;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
@@ -143,8 +147,14 @@ body {
 	box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
+
+/* Goal Pages */
 .goalTitle {
     text-align: center;
     padding: 1%;
@@ -181,10 +191,72 @@ body {
     /* starts text lower down to prevent wordwrap with images */
 }
 
+/* signUp Page */
+#formDesc {
+	padding-left: 20px;
+}
+
+fieldset {
+	display: grid;
+	flex-wrap: wrap;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: auto;
+	border: 5px solid #928374;
+	border-radius: 5px;
+}
+
+label::before {
+    content: "*";
+	margin-right: 5px;
+	margin-left: 4px;
+    color: red;
+}
+
+legend {
+	text-align: center;
+}
+
+#fName, #lName, #email {
+	width: 50%;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 3px solid #3c3836;
+	border-radius: 4px;
+}
+
+#comments {
+	margin-left: 20px;
+	display: inline;
+	width: 90%;
+	overflow: scroll;
+	margin-right: 20px;
+	padding-bottom: 80px;
+	border: 3px solid #3c3836;
+	border-radius: 4px;
+	overflow-wrap: break-word;
+}
+
+#submitForm {
+	background-color: #B8195A;
+	color: white;
+	text-transform: uppercase;
+	width: 150px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	border: 2px solid #B8195A;
+	cursor: pointer;
+}
 
 
+
+/* Footer */
 footer {
-	background-color: #573A56;
+	background-color: #cdaa75;
 	font-size: 0.7em;
 	text-align: center;
 	color: #fff9e8;
@@ -193,12 +265,13 @@ footer {
 }
 
 footer a:link {
-	color: #fff9e8;
+	color: #B8195A;
 }
 
 footer a:hover {
-	color: #e8fff9;
+	color: #573A56;
 }
+
 
 
 @media only screen and (max-width: 870px) {
