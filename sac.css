@@ -228,8 +228,8 @@ legend {
 #comments {
 	margin-left: 20px;
 	display: inline;
-	width: 90%;
-	overflow: scroll;
+	width: 50%;
+	overflow: visible;
 	margin-right: 20px;
 	padding-bottom: 80px;
 	border: 3px solid #3c3836;
