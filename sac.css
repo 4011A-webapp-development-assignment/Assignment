@@ -190,20 +190,19 @@ body {
 	text-align: center;
 }
 
-#imfLogo {
+.image1 {
     float: left;
     width: 30%;
-    height: 29%;
     margin: 10%;
 }
 
-#gdpGraph {
+.image2 {
     float: right;
     width: 30%;
-    margin: 10% ;
+    margin: 10%;
 }
 
-#vBanner {
+.vBanner {
 	float: left;
 	height: 52em;
 	min-height: 52em;
@@ -214,7 +213,7 @@ body {
 	margin-top: 1%;
 }
 
-#vBanner2 {
+.vBanner2 {
 	float: right;
 	position: relative;
 	padding-right: 20px;
