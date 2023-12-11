@@ -1,0 +1,16 @@
+{
+  "name": "sac",
+  "version": "1.0.0",
+  "description": "This website has been made by Christopher and Imogen",
+  "main": "sac.js",
+  "scripts": {
+    "start": "node sac.js",
+    "dev": "nodemon sac.js"
+  },
+  "author": "Christopher Glave and Imogen Lankester",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}

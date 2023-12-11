@@ -1,0 +1,419 @@
+/* Header & Navigation */
+header {
+	background-color: #cdaa75;
+	height: 100px;
+}
+
+header > h1 {
+	line-height: 150%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+header > #webLogo {
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+a {
+	text-decoration: none; 
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	color: #573A56;
+}
+
+a:visited {
+	color: #B8195A;
+}
+
+nav {
+	text-align: right;
+}
+
+.nav, .activeNav {
+	display: inline-block;
+	padding: 10px;
+	margin-top: 25px;
+	background-color: #bdae93;
+	border: solid 3px #928374;
+	border-radius: 5px;
+	margin-right: 5px;
+	font-size: 10px;
+}
+
+.activeNav {
+	background-color: #d2b67d;
+}
+
+.nav:hover {
+    background-color: #fbf1cf;
+}
+
+#navBar{
+	display: none;
+}
+
+
+
+/* Index Page */
+#mainSec {
+	position: relative;
+	text-align: center;
+}
+
+#mainSecImg {
+	height: 600px;
+	width: 100%;
+	border-bottom: solid black 5px;
+	border-top: solid black 5px;
+}
+
+h2 {
+	top: 15%;
+	left: 20px;
+	position: absolute;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+#mainSec > p {
+	bottom: 18%;
+	left: 20px;
+	position: absolute;
+	border: 5px solid black;
+	height: fit-content;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right:4px;
+	max-width: 40%;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+}
+
+#mainBtn {
+	background-color: #B8195A;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: fit-content;
+	font-weight: 700;
+	font-size: 16px;
+	border: 2px solid #B8195A;
+	cursor: pointer;
+	bottom: 10%;
+	left: 20px;
+	position: absolute;
+}
+
+#webNotice {
+	position: fixed;
+	z-index: 5;
+	top: 15%;
+	right: 0%;
+	background-color: white;
+	color: red;
+	text-align: right;
+}
+
+/* Body */
+body {
+	background-color: #fbf1cf;
+	color: #3c3836;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.service {
+    display: inline-block;
+    width: 47%;
+    background-color: white;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 11px;
+	padding-right: 11px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Goal Pages */
+.goalTitle {
+    text-align: center;
+    padding: 1%;
+}
+
+.goalMainText {
+    display: grid;
+    border: solid 5px #3c3836;
+    border-radius: 3px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: left;
+    word-break: keep-all;
+	background-color: #fbf1cf;
+}
+
+.goalFurtherDetail {
+	position: relative;
+	border: solid 5px red;
+	border-radius: 3px;
+	padding: 1%;
+	margin-top: 1%;
+	margin-left: 40%;
+	margin-right: 40%;
+	text-align: center;
+	color: blue;
+
+}
+
+.goalFurtherDetail:link {
+	color: blue;
+	text-align: center;
+}
+
+.image1 {
+    float: left;
+    width: 30%;
+    margin: 10%;
+}
+
+.image2 {
+    float: right;
+    width: 30%;
+    margin: 10%;
+}
+
+.vBanner {
+	float: left;
+	height: 52em;
+	min-height: 52em;
+	position: relative;
+	padding-left: 20px;
+	width: 20%;
+    display: flex;
+	margin-top: 1%;
+}
+
+.vBanner2 {
+	float: right;
+	position: relative;
+	padding-right: 20px;
+	height: 52em;
+	min-height: 52em;
+	width: 20%;
+    display: flex;
+	margin-top: 1%;
+}
+
+.pfp {
+	float: right;
+    width: 10%;
+	border: 2px solid black;
+    border-radius: 75px;
+}
+
+
+
+#econSecond {
+    clear: left;
+    /* starts text lower down to prevent wordwrap with images */
+}
+
+/* signUp Page */
+#formDesc {
+	padding-left: 20px;
+}
+
+fieldset {
+	display: grid;
+	flex-wrap: wrap;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: auto;
+	border: 5px solid #928374;
+	border-radius: 5px;
+}
+
+label::before {
+    content: "*";
+	margin-right: 5px;
+	margin-left: 4px;
+    color: red;
+}
+
+legend {
+	text-align: center;
+}
+
+#fName, #lName, #email {
+	width: 50%;
+	height: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 3px solid #3c3836;
+	border-radius: 4px;
+}
+
+#comments {
+	margin-left: 20px;
+	display: inline;
+	width: 50%;
+	max-width: 50%;
+	overflow: visible;
+	margin-right: 20px;
+	padding-bottom: 80px;
+	border: 3px solid #3c3836;
+	border-radius: 4px;
+	overflow-wrap: break-word;
+}
+
+#submitForm {
+	background-color: #B8195A;
+	color: white;
+	text-transform: uppercase;
+	width: 150px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	border: 2px solid #B8195A;
+	cursor: pointer;
+}
+
+#signUpImg {
+	height: 100%;
+	width: 40%;
+	justify-self: end;
+	position: absolute;
+}
+
+/* Footer */
+footer {
+	background-color: #cdaa75;
+	font-size: 0.7em;
+	text-align: center;
+	color: #fff9e8;
+	padding: 16px;
+	margin-top: 32px;
+}
+
+footer a:link {
+	color: #B8195A;
+}
+
+footer a:hover {
+	color: #573A56;
+}
+
+.teamNames {
+	font-size: xx-large;
+	font-style: italic;
+}
+
+#navBar {
+	visibility: hidden;
+}
+
+#showMore {
+	display: none;
+}
+
+#readMoreBtn {
+	background-color: #B8195A;
+	margin-left: 40%;
+	margin-right: 40%;
+	color: white;
+	width: 100px;
+	height: 30px;
+	font-weight: 500;
+	font-size: 16px;
+	border: 2px solid #B8195A;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 870px) {
+
+	#navBar{
+		visibility: visible;
+		display: block;
+		float: right;
+		margin-top: 20px;
+		margin-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 25px;
+		text-align: center;
+		background-color: #c59d5f;
+	}
+
+
+	.nav, .activeNav {
+		display: block;
+		width: 78%;
+		margin: 0;
+		font-size: 12px;
+		padding-right: 5px;
+		text-align: center;
+		background-color: #e1dbe1;
+	}
+	.nav:hover {
+		background-color: #f4f0f4;
+	}
+	#mainNav {
+		position: absolute;
+		right: 10px;
+		z-index: 1;
+		top: 20px;
+	}
+	.mainNav {
+		height: 0;
+		overflow: hidden;
+	}
+	.showNav {
+		height: auto;
+		margin-top: 65px;
+	}
+
+	.vBanner {
+		visibility: hidden;
+	}
+
+	.vBanner2 {
+		visibility: hidden;
+	}
+
+}
+
