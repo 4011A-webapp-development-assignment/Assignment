@@ -323,6 +323,10 @@ footer a:hover {
 	color: #573A56;
 }
 
+.teamNames {
+	font-size: xx-large;
+	font-style: italic;
+}
 
 #navBar {
 	visibility: hidden;
