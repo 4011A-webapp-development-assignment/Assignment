@@ -170,6 +170,7 @@ body {
     margin-top: 1%;
     text-align: left;
     word-break: keep-all;
+	background-color: #fbf1cf;
 }
 
 .goalFurtherDetail {
@@ -223,6 +224,8 @@ body {
     display: flex;
 	margin-top: 1%;
 }
+
+
 
 #econSecond {
     clear: left;
@@ -368,5 +371,14 @@ footer a:hover {
 		height: auto;
 		margin-top: 65px;
 	}
+
+	.vBanner {
+		visibility: hidden;
+	}
+
+	.vBanner2 {
+		visibility: hidden;
+	}
+
 }
 
