@@ -119,7 +119,15 @@ h2 {
 	position: absolute;
 }
 
-
+#webNotice {
+	position: fixed;
+	z-index: 5;
+	top: 15%;
+	right: 0%;
+	background-color: white;
+	color: red;
+	text-align: right;
+}
 
 /* Body */
 body {
