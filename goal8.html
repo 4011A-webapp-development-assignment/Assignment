@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="sac.css">
     <script src="navBar.js" defer></script>
     <script src="underLine.js" defer></script>
+    <script src="readMore.js" defer></script>
 </head>
 <body>
 <div>
@@ -53,13 +54,15 @@
                     quae ab illo inventore veritatis et quasi architecto beatae
                     vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
                     voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-                    porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                    <span id="ellipsis">...</span><span id="showMore">
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                     consectetur, adipisci velit, sed quia non numquam eius modi
                     tempora incidunt ut labore et dolore magnam aliquam quaerat
                     voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
                     ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                    consequatur?</p>
+                    consequatur?</span></p>
+                    <button onclick="readMore()" id="readMoreBtn">Read more</button>
             </div>
             <div class=goalFurtherDetail>
                 <a href="https://www.un.org/sustainabledevelopment/economic-growth/">Would you like to know more?</a>
