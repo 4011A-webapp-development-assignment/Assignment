@@ -161,7 +161,7 @@ body {
 }
 
 .goalMainText {
-    display: inline-block;
+    display: grid;
     border: solid 5px #3c3836;
     border-radius: 3px;
     margin-right: 25%;
@@ -186,6 +186,28 @@ body {
     margin: 10% ;
 }
 
+#vBanner {
+	float: left;
+	height: 52em;
+	min-height: 52em;
+	position: relative;
+	padding-left: 20px;
+	width: 20%;
+    display: flex;
+	margin-top: 1%;
+}
+
+#vBanner2 {
+	float: right;
+	position: relative;
+	padding-right: 20px;
+	height: 52em;
+	min-height: 52em;
+	width: 20%;
+    display: flex;
+	margin-top: 1%;
+}
+
 #econSecond {
     clear: left;
     /* starts text lower down to prevent wordwrap with images */
@@ -199,6 +221,7 @@ body {
 fieldset {
 	display: grid;
 	flex-wrap: wrap;
+	position: relative;
 	margin-left: 20px;
 	margin-right: 20px;
 	width: auto;
@@ -219,6 +242,7 @@ legend {
 
 #fName, #lName, #email {
 	width: 50%;
+	height: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
 	border: 3px solid #3c3836;
@@ -229,6 +253,7 @@ legend {
 	margin-left: 20px;
 	display: inline;
 	width: 50%;
+	max-width: 50%;
 	overflow: visible;
 	margin-right: 20px;
 	padding-bottom: 80px;
@@ -250,6 +275,13 @@ legend {
 	font-size: 16px;
 	border: 2px solid #B8195A;
 	cursor: pointer;
+}
+
+#signUpImg {
+	height: 100%;
+	width: 40%;
+	justify-self: end;
+	position: absolute;
 }
 
 
