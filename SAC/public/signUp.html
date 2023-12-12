@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="sac.css">
     <script src="navBar.js" defer></script>
     <script src="underLine.js" defer></script>
+    <script src="signUp.js" defer></script>
 </head>
 <body>
 <div>
@@ -30,7 +31,7 @@
         <main>
             <div id="formDesc">
                 <h3>Sign Up Form</h3>
-                <p>You can Sign Up here to recieve frequent newsletters. <br> Fields marked with an asterisk (*) must be filled in.</p>
+                <p>You can Sign Up here to receive frequent newsletters. <br> Fields marked with an asterisk (*) must be filled in.</p>
             </div>
                 <form action="" method="POST" id="signUpForm">
                     <fieldset>
@@ -44,7 +45,7 @@
                         <input type="text" id="email" name="email" placeholder="Enter your Email Address" required><br><br>
                         <label for="comments">Comments: </label>
                         <textarea form="signUpForm" id="comments" name="comments" placeholder="Enter any comments you have or type N/A" required></textarea>
-                        <button id="submitForm">Submit Form</button>
+                        <button id="submitForm" type="submit">Submit Form</button>
                     </fieldset>
                 </form>
         </main>
