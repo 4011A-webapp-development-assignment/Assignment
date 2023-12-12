@@ -1,0 +1,23 @@
+<!DOCTYPE html> <!-- Tutorial followed from https://dev.to/victrexx2002/introduction-to-ejs-a-guide-to-building-dynamic-web-applications-2737 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is our EJS</title>
+</head>
+<body>
+    <header>
+        <%- include ('partials/header') %>
+    </header>
+    <h1>This has been created by <%= name %>!</h1>   
+    <ul>
+    <% for (let i = 0; i < data.length; i++) { %>
+        <li><%= data[i] %></li>
+    <% } %>
+    </ul>
+    <% if (names > 1) {%>
+        <p> This website was created by a group of people </p>
+    <% } else { %>
+        <p> This website was created by one person </p>
+    <% } %>
+</body>
+</html>
